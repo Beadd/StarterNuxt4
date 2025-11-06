@@ -50,6 +50,12 @@ export default antfu(
       "readable-tailwind/multiline": ["warn", { printWidth: 80 }],
     },
   },
+  settings: {
+      "better-tailwindcss": {
+        // tailwindcss 4: the path to the entry file of the css based tailwind config (eg: `src/global.css`)
+        entryPoint: "app/assets/css/main.css",
+      }
+    }
   {
     ignores: ["database.types.ts", "android", "ios", "public"],
   },
