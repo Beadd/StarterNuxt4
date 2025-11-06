@@ -1,5 +1,5 @@
 {
-  "name": "t",
+  "name": "starter-nuxt4",
   "type": "module",
   "private": true,
   "scripts": {
@@ -10,7 +10,11 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prettier": "prettier --write .",
+    "supa": "supabase gen types typescript --project-id yourid > database.types.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.16",
