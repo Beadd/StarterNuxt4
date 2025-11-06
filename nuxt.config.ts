@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     'pinia-plugin-persistedstate',
     '@nuxtjs/i18n',
     '@nuxt/eslint',
-    '@primevue/nuxt-module'
+    '@primevue/nuxt-module',
+    '@vueuse/nuxt'
   ]
 })
