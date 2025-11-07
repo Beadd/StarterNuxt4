@@ -1,5 +1,3 @@
 <template>
-  <button class="btn">
-    Default
-  </button>
+  <button class="btn p-17">Default</button>
 </template>

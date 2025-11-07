@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "cls && nuxt dev -o",
+    "generate": "nuxt generate",
     "sync": "npx cap sync",
     "format": "npm run prettier && npm run lint:fix",
     "type": "nuxt typecheck",
     "build": "nuxt build",
-    "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
@@ -34,6 +34,8 @@
     "eslint": "^9.39.1",
     "eslint-plugin-better-tailwindcss": "^3.7.10",
     "pinia-plugin-persistedstate": "^4.7.1",
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.7.1",
     "vue-eslint-parser": "^10.2.0"
   }
 }
