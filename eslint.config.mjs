@@ -18,15 +18,15 @@ export default antfu(
   {
     ignores: ["database.types.ts", "android", "ios", "public"],
   },
-    {
+  {
     files: ["**/*.vue"],
     languageOptions: {
-      parser: eslintParserVue
-    }
+      parser: eslintParserVue,
+    },
   },
   {
     plugins: {
-      "better-tailwindcss": eslintPluginBetterTailwindcss
+      "better-tailwindcss": eslintPluginBetterTailwindcss,
     },
     rules: {
       // enable all recommended rules to report a warning
@@ -35,13 +35,16 @@ export default antfu(
       ...eslintPluginBetterTailwindcss.configs["recommended-error"].rules,
 
       // or configure rules individually
-      "better-tailwindcss/enforce-consistent-line-wrapping": ["warn", { printWidth: 100 }]
+      "better-tailwindcss/enforce-consistent-line-wrapping": [
+        "warn",
+        { printWidth: 100 },
+      ],
     },
     settings: {
       "better-tailwindcss": {
         // tailwindcss 4: the path to the entry file of the css based tailwind config (eg: `src/global.css`)
         entryPoint: "app/assets/css/main.css",
-      }
-    }
-  }
+      },
+    },
+  },
 );
