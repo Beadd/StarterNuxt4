@@ -1,5 +1,9 @@
 {
   "welcome": "欢迎",
+  "Success": "操作成功",
+  "Error": "发生错误",
   "Not found": "未找到",
+  "Rate limit reached": "达到频率限制",
+  "Please check the form": "请检查表单",
   "This content has been deleted or banned": "此内容已被删除或封禁"
 }

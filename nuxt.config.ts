@@ -18,6 +18,7 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@primevue/nuxt-module",
     "@vueuse/nuxt",
+    "@nuxtjs/supabase",
   ],
   i18n: {
     defaultLocale: "zh",
