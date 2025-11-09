@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: false,
   },
-  css: ["~/assets/css/main.css"],
+  css: ["./app/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
   },
