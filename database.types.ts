@@ -294,7 +294,7 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      admin: { Args: never; Returns: boolean }
+      check_admin: { Args: never; Returns: boolean }
       get_friends: {
         Args: { last_created_at: string; user_id: string }
         Returns: Json
