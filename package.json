@@ -26,6 +26,7 @@
     "@capacitor/local-notifications": "^7.0.3",
     "@capacitor/preferences": "^7.0.2",
     "@tailwindcss/vite": "^4.1.16",
+    "boxicons": "^2.1.4",
     "date-fns": "^4.1.0",
     "nuxt": "^4.2.0",
     "photoswipe": "^5.4.4",
