@@ -2,7 +2,6 @@
   "welcome": "欢迎",
   "Success": "操作成功",
   "Error": "发生错误",
-  "Not found": "未找到",
   "Rate limit reached": "达到频率限制",
   "Please check the form": "请检查表单",
   "Welcome": "欢迎",
@@ -18,5 +17,9 @@
   "Cancel": "取消",
   "Confirm": "确定",
   "Choose a file": "选择一个文件",
+  "You can share this link, copy it and open it in a browser or within the app to jump to this article": "你可以分享此链接，复制链接至浏览器打开或APP内即可跳转此文章",
+  "Automatically copied. If it didn't work, please copy manually": "已自动复制，若未生效请手动复制",
+  "No more": "已加载全部",
+  "Not found": "未找到",
   "This content has been deleted or banned": "此内容已被删除或封禁"
 }
