@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: false,
   },
-  css: ["./app/assets/css/main.css", "boxicons/css/boxicons.min.css"],
+  css: ["./app/assets/css/main.css"],
   vite: {
     plugins: [tailwindcss()],
   },
