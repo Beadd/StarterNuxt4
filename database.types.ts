@@ -294,12 +294,12 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
+      admin: { Args: never; Returns: boolean }
       get_friends: {
         Args: { last_created_at: string; user_id: string }
         Returns: Json
       }
       get_friends_number: { Args: { user_id: string }; Returns: number }
-      is_admin: { Args: never; Returns: boolean }
     }
     Enums: {
       [_ in never]: never
