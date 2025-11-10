@@ -65,7 +65,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       if (user.value && newval?.id !== oldval?.id) {
         const { data: dataprofile } = await supabase
           .from("profiles")
-          .select(`*`)
+          .select("*")
           .eq("id", user.value?.id || "")
           .single();
 
