@@ -22,6 +22,10 @@
   "No more": "已加载全部",
   "Delete": "删除",
   "Confirm deletion": "确认删除",
+  "Report": "举报",
+  "Confirm report": "确认举报",
+  "Please enter the report content": "请输入举报内容",
+  "Please log in first": "请先登录",
   "Not found": "未找到",
   "This content has been deleted or banned": "此内容已被删除或封禁"
 }
