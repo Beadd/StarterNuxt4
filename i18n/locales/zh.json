@@ -12,5 +12,11 @@
   "New follower": "有人关注了你",
   "Email user": "邮箱用户",
   "Admin message": "管理员消息",
+  "Block this user": "屏蔽此人",
+  "Confirm block": "确认屏蔽",
+  "Hint": "提示",
+  "Cancel": "取消",
+  "Confirm": "确定",
+  "Choose a file": "选择一个文件",
   "This content has been deleted or banned": "此内容已被删除或封禁"
 }
