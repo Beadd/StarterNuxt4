@@ -13,7 +13,7 @@ export default defineNuxtPlugin((nuxtApp) => {
       if (!value)
         return;
 
-      const postregex = /^https:\/\/www\.isuishu\.com\/posts\/([a-z0-9-]+)$/i;
+      const postregex = /^https:\/\/www\.example\.com\/posts\/([a-z0-9-]+)$/i;
 
       let targetpath: string | null = null;
 
