@@ -1,7 +1,7 @@
 import type { Database } from "../../database.types";
 
 type profilerow = Database["public"]["Tables"]["profiles"]["Row"];
-type titlerow = Database["public"]["Tables"]["titles"]["Row"];
+export type titlerow = Database["public"]["Tables"]["titles"]["Row"];
 type postrow = Database["public"]["Tables"]["posts"]["Row"];
 type postimagerow = Database["public"]["Tables"]["post_images"]["Row"];
 type notificationrow = Database["public"]["Tables"]["notifications"]["Row"];
