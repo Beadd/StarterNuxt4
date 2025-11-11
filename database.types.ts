@@ -289,6 +289,41 @@ export type Database = {
         }
         Relationships: []
       }
+      titles: {
+        Row: {
+          created_at: string
+          deleted_at: string | null
+          expiration_at: string | null
+          id: number
+          type: string | null
+          user_id: string | null
+        }
+        Insert: {
+          created_at?: string
+          deleted_at?: string | null
+          expiration_at?: string | null
+          id?: number
+          type?: string | null
+          user_id?: string | null
+        }
+        Update: {
+          created_at?: string
+          deleted_at?: string | null
+          expiration_at?: string | null
+          id?: number
+          type?: string | null
+          user_id?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "titles_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
     }
     Views: {
       [_ in never]: never

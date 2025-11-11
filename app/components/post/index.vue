@@ -77,9 +77,9 @@ function click() {
       </div>
     </div>
     <div class="flex items-center justify-around">
-      <AppComment :count="post?.posts[0].count || 0" />
+      <AppComment :count="post?.posts[0]?.count || 0" />
       <AppLike
-        :count="post?.likes[0].count"
+        :count="post?.likes[0]?.count"
         :liked="post?.is_liked[0]?.count || 0 > 0"
         :add="add"
         :remove="remove"
