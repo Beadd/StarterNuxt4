@@ -1,5 +1,4 @@
 {
-  "welcome": "欢迎",
   "Success": "操作成功",
   "Error": "发生错误",
   "Rate limit reached": "达到频率限制",
@@ -60,5 +59,7 @@
   "Language": "语言",
   "and": "和",
   "Not found": "未找到",
+  "Unknown": "未知",
+  "Admin": "超级管理",
   "This content has been deleted or banned": "此内容已被删除或封禁"
 }

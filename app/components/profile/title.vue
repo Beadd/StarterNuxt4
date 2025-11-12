@@ -5,6 +5,8 @@ const props = defineProps<{
   title: titlerow;
 }>();
 
+const { t } = useI18n();
+
 function show() {
   if (!props.title.expiration_at)
     return true;
@@ -23,9 +25,9 @@ const color = computed(() => {
 const text = computed(() => {
   switch (props.title.type) {
     case "admin":
-      return "Admin";
+      return t("Admin");
     default:
-      return "Unknown";
+      return t("Unknown");
   }
 });
 </script>
@@ -33,7 +35,7 @@ const text = computed(() => {
 <template>
   <div v-if="show()">
     <div v-bind="$attrs" class="badge badge-sm cursor-pointer" :class="color">
-      {{ $t(text) }}
+      {{ text }}
     </div>
   </div>
 </template>
