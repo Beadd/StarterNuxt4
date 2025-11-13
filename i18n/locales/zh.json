@@ -83,5 +83,6 @@
   "Notifications": "通知",
   "Clear": "清除",
   "Confirm marking as read": "确定要全部标为已读",
+  "A share link was detected in the clipboard. Do you want to open it?": "从剪贴板检测到分享链接，是否跳转？",
   "Total posts": "总帖子量"
 }
