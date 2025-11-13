@@ -1,6 +1,8 @@
 {
   "name": "starter-nuxt4",
+  "displayName": "starter-nuxt4",
   "type": "module",
+  "version": "1.2.0",
   "private": true,
   "scripts": {
     "dev": "cls && nuxt dev -o",

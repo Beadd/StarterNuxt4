@@ -66,5 +66,22 @@
   "Enter the verification code you received": "请输入你收到的验证码",
   "Change email": "更改邮箱",
   "close": "关闭",
-  "Verification code error": "验证码错误"
+  "Username is already taken": "用户名已被占用",
+  "Display name": "显示名称",
+  "Username": "用户名",
+  "Optional": "可选",
+  "Save": "保存",
+  "User list": "用户列表",
+  "Verification code error": "验证码错误",
+  "Total users": "总用户量",
+  "Download the APK file": "下载APK文件",
+  "Welcome back": "欢迎回来",
+  "Or": "或者",
+  "Mine": "我的",
+  "Profile": "个人资料",
+  "Setting": "设置",
+  "Notifications": "通知",
+  "Clear": "清除",
+  "Confirm marking as read": "确定要全部标为已读",
+  "Total posts": "总帖子量"
 }
